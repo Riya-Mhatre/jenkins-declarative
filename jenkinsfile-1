@@ -1,0 +1,16 @@
+pipeline //comment: declarative pipileine starts with keyword pipeline 
+agent any
+{
+    stages
+    {
+        stage('Print a message')
+        {
+           steps
+            {
+               echo "Hello Jenkins"
+             
+             }
+
+        }
+    }
+}
