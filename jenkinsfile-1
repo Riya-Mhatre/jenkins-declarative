@@ -1,13 +1,31 @@
 pipeline //comment: declarative pipileine starts with keyword pipeline 
-agent any
 {
+   agent any
     stages
     {
-        stage('Print a message')
+        stage('Scm Checkout')
         {
            steps
             {
-               echo "Hello Jenkins"
+               echo "Hello Scm Checkout"
+             
+             }
+
+        }
+       stage('code building')
+        {
+           steps
+            {
+               echo "Hello code building"
+             
+             }
+
+        }
+      stage('code deployed')
+        {
+           steps
+            {
+               echo "Hello code deployed"
              
              }
 
