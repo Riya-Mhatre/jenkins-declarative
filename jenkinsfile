@@ -1,4 +1,5 @@
 pipeline //comment: declarative pipileine starts with keyword pipeline 
+agent any
 {
     stages
     {
